@@ -1,0 +1,13 @@
+<!-- App title -->
+<h1>
+  {{ title }}
+</h1>
+
+<!-- Navigation -->
+<nav>
+  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+  <a [routerLink]="['/heroes']" routerLinkActive="active" >Heroes</a>
+</nav>
+
+<!-- The <router-outlet> tells the router where to display routed views. -->
+<router-outlet></router-outlet>

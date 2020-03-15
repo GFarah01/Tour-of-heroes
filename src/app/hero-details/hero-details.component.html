@@ -1,0 +1,17 @@
+<div *ngIf="hero">
+    <!-- Using Uppercase pipe to upercase element -->
+    <h3>{{ hero.name | uppercase }} Details</h3>
+
+    <!-- Hero's id -->
+    <div class="heroId">
+        <span>Id: {{ hero.id }}</span>
+    </div>
+    
+    <!-- Hero's name -->
+    <div class="heroName">
+        <label for="name">Name:</label>
+        <input type="text" [(ngModel)]="hero.name" placeholder="Hero name...">
+    </div>
+
+    <button (click)="onSave()">Save</button>
+</div>
