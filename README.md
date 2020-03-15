@@ -1,4 +1,7 @@
 # Tour-of-heroes
+
+Well documented example for learning purpose <br />
+
 This Tour of Heroes project provides an introduction to the fundamentals of Angular <br />
 
 In this Tour of Heroes project, you will build an app that helps a staffing agency manage its stable of heroes <br />
@@ -18,3 +21,14 @@ By the end of this tutorial you will be able to do the following:
 </ul>
 
 You'll learn enough Angular to get started and gain confidence that Angular can do whatever you need it to do.
+
+# Test the project locally:
+
+Angular version: 9.0.6 <br />
+NodeJs version: 12.16.0 <br />
+TypeScript version: 3.7.5 <br />
+
+- Download or clone the project <br />
+- Open the Angular project folder (tour-of-heroes) on Git Bash <br />
+- Type npm install <br />
+- Lunch the Angular app with ng serve --open
