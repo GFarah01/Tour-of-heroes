@@ -31,4 +31,6 @@ TypeScript version: 3.7.5 <br />
 - Download or clone the project <br />
 - Open the Angular project folder (tour-of-heroes) on Git Bash <br />
 - Type npm install <br />
-- Lunch the Angular app with ng serve --open
+- Lunch the Angular app with ng serve --open <br />
+
+😊
